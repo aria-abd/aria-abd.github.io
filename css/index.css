@@ -1,0 +1,245 @@
+body {
+    height: 2000px;
+}
+
+
+
+@media all and (max-width:991px) {
+
+    /* ////////////////////////////////////////////////////////////////// */
+    /*                            در خرید سر ماه                         */
+    .buy1 {
+        height: 35px !important;
+        object-fit: cover;
+
+    }
+
+    .buy2 {
+        height: 60px !important;
+        object-fit: cover;
+        display: none;
+    }
+
+    /* ////////////////////////////////////////////////////////////////// */
+    /*                         ورود | ثبت نام                            */
+    .logo {
+        height: 24px;
+    }
+
+    .soal {
+        font-size: 15px;
+        color: rgb(80, 80, 80);
+        border: 2px solid rgb(80, 80, 80);
+        border-radius: 5px;
+        padding: 2px 5px;
+    }
+
+    .tog {
+        font-size: 15px;
+        color: pink !important;
+
+    }
+
+    .vared,
+    .khat,
+    .cart,
+    .nonkon {
+        display: none;
+        margin: 0;
+    }
+
+    .cart1 {
+        transform: rotateY(180deg);
+        color: black;
+        font-size: 20px;
+        margin-left: 10px;
+    }
+
+    .vared1 {
+        /* border: 1px solid rgb(210, 210, 210); */
+        padding: 10px;
+        border-radius: 10px;
+        color: black;
+        font-size: 15px;
+
+    }
+
+    .zare1 {
+        color: rgb(80, 80, 80);
+        right: 20px;
+        top: 13px;
+        font-size: 17px;
+    }
+
+    .input1 {
+        width: 600px;
+        height: 40px;
+        background-color: #f0f0f1;
+        border: 0;
+        border-radius: 10px;
+    }
+
+    .fontt {
+        font-size: 13px;
+    }
+
+    /* ////////////////////////////////////////////////////////////////// */
+    /*                                اسلایدر                             */
+
+    .imgg {
+        height: 268px;
+        object-fit: cover;
+    }
+
+    /* //////////////////////////////////////////////// */
+    .sabad {
+        width: 40px;
+    }
+
+    .sabad-text {
+        font-size: 20px;
+        margin-top: 7px;
+    }
+
+    .sabad-a {
+        text-decoration: none;
+    }
+
+    .sheg-img {
+        width: 52px;
+        height: 53px;
+        border-radius: 50%;
+        margin-right: 10px;
+    }
+
+    .boro {
+        width: 50px;
+        height: 40px;
+        background-color: aqua;
+    }
+
+    .rad {
+        border-radius: 20px;
+        background-color: #eeefee;
+    }
+
+    .colorr {
+        color: #39ae00;
+    }
+
+}
+
+/* /////////////////////////////////////////////////////////////////////////// */
+.imgg2 {
+    width: 52px;
+    height: 52px;
+}
+
+.spanz {
+    text-align: center;
+}
+
+.llink {
+    text-decoration: none;
+    color: black;
+    font-size: 12px;
+}
+
+/*                                  دیجی جت                                  */
+
+@media all and (min-width:992px) {
+    .poz {
+        top: 0;
+        position: sticky;
+        z-index: 2;
+    }
+
+    .poz2 {
+        top: 60px;
+        position: sticky;
+        z-index: 2;
+    }
+
+    /* ////////////////////////////////////////////////////////////////// */
+    /*                            در خرید سر ماه                         */
+    .buy2 {
+        height: 60px !important;
+        object-fit: cover;
+    }
+
+    /* ////////////////////////////////////////////////////////////////// */
+    /*                         ورود | ثبت نام                            */
+
+    .logo {
+        height: 30px;
+    }
+
+    .zare {
+        color: rgb(80, 80, 80);
+        right: 20px;
+        top: 13px;
+        font-size: 17px;
+    }
+
+    .input {
+        width: 600px;
+        height: 40px;
+        background-color: #f0f0f1;
+        border: 0;
+        border-radius: 10px;
+    }
+
+    .cart {
+        transform: rotateY(180deg);
+        color: black;
+        font-size: 20px;
+        margin-left: 10px;
+    }
+
+    .khat {
+        margin-left: 20px;
+        margin-right: 15px;
+        height: 24px;
+        border-left: 1px solid rgb(80, 80, 80);
+    }
+
+    .vared {
+        border: 1px solid rgb(210, 210, 210);
+        padding: 10px;
+        border-radius: 10px;
+        color: black;
+        font-size: 15px;
+
+    }
+
+    /* ////////////////////////////////////////////////////////////////// */
+    /*                         2ورود | ثبت نام                           */
+    .damn {
+        list-style: none;
+    }
+
+    .damn li a {
+        text-decoration: none;
+        font-size: 12px;
+    }
+
+    /* ////////////////////////////////////////////////////////////////// */
+    /*                                اسلایدر                             */
+
+    .imgg {
+        height: 400px;
+        object-fit: cover;
+    }
+
+    /* ///////////////////////////////////////////////////////////////////// */
+    .sabad {
+        width: 66px;
+        height: 66px;
+    }
+
+    .sheg-img {
+        width: 58px;
+        border-radius: 50%;
+        margin-right: 10px;
+    }
+}
