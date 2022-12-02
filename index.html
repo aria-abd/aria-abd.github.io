@@ -34,10 +34,56 @@
     <!--                            ورود | ثبت نام                              -->
     <nav class="navbar navbar-expand-lg bg-light mt-1 poz2">
         <div class="container-fluid">
+            <button class="btn" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasScrolling"
+                aria-controls="offcanvasScrolling">
+                <a href="#">
+                    <span class="navbar-toggler-icon tog d-lg-none"></span>
+                </a>
+            </button>
+            <div class="offcanvas offcanvas-start d-lg-none" data-bs-scroll="true" data-bs-backdrop="false"
+                tabindex="-1" id="offcanvasScrolling" aria-labelledby="offcanvasScrollingLabel">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasScrollingLabel">
+                        <a href="#">
 
-            <a href="#">
-                <span class="navbar-toggler-icon tog d-lg-none"></span>
-            </a>
+                            <img src="https://www.digikala.com/statics/img/svg/digi.svg">
+                        </a>
+                    </h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+
+                    <ul class="ps-0 d-lg-none">
+                        <li class="p-2 m-1 list-unstyled"><a href="#" class="sabad-a text-black">
+                                <i class="me-2 mb-2 fa-solid fa-store"></i>
+                                سوپرمارکت
+                            </a></li>
+                        <li class="p-2 m-1 list-unstyled"><a href="#" class="sabad-a text-black">
+                                <i class="me-2 mb-2 fa-solid fa-fire-flame-curved"></i>
+                                پرفروش ترین های
+                            </a></li>
+                        <li class="p-2 m-1 list-unstyled"><a href="#" class="sabad-a text-black">
+                                <i class="me-2 mb-2 fa-solid fa-tag"></i>
+                                تخفیف ها و پیشنهاد ها
+                            </a></li>
+                        <li class="p-2 m-1 list-unstyled"><a href="#" class="sabad-a text-black">
+                                <i class="me-2 mb-2 fa-solid fa-percent"></i>
+                                شگفت انگیز ها
+                            </a></li>
+                        <li class="p-2 m-1 list-unstyled"><a href="#" class="sabad-a text-black">
+                                <i class="me-2 mb-2 fa-regular fa-circle-question"></i>
+                                سوالی دارید؟
+                            </a></li>
+                        <li class="p-2 m-1 list-unstyled"><a href="#" class="sabad-a text-black">
+                                <i class="me-2 mb-2 fa-solid fa-shop"></i>
+                                در دیجی کالا بفروشید
+                            </a></li>
+                    </ul>
+
+
+                </div>
+            </div>
+
 
             <a href="#"><img class="w-100 logo" src="images/logo.png"></a>
 
@@ -75,8 +121,7 @@
                     <a href="#">
                         <i class="fa-solid fa-magnifying-glass zare1 position-absolute"></i>
                     </a>
-                    <input class="input1" placeholder="             جستجو">
-
+                    <input class="input1 ps-5" placeholder="جستجو">
                 </form>
             </div>
             <div class="col-6 d-flex flex-row-reverse ">
@@ -764,20 +809,22 @@
                     دانلود اپلیکیشن دیجی کالا
                 </p>
             </div>
-            <div class="col-6 col-lg-2 d-flex align-items-center justify-content-center mt-2">
-                <a href="#" class="mx-2"><img
+            <div class="col-6 p-0 col-lg-2 d-flex align-items-center justify-content-center mt-2">
+                <a href="#" class="mx-2"><img class="w-cus"
                         src="https://www.digikala.com/statics/img/svg/appStores/google-play.svg"></a>
             </div>
 
-            <div class="col-6 col-lg-2 d-flex align-items-center justify-content-center mt-2">
-                <a href="#" class="mx-2"><img
+            <div class="col-6 p-0 col-lg-2 d-flex align-items-center justify-content-center mt-2">
+                <a href="#" class="mx-2"><img class="w-cus"
                         src="https://www.digikala.com/statics/img/svg/appStores/coffe-bazzar.svg"></a>
             </div>
-            <div class="col-6 col-lg-2 d-flex align-items-center justify-content-center mt-2">
-                <a href="#" class="mx-2"><img src="https://www.digikala.com/statics/img/svg/appStores/myket.svg"></a>
+            <div class="col-6 p-0 col-lg-2 d-flex align-items-center justify-content-center mt-2">
+                <a href="#" class="mx-2"><img class="w-cus"
+                        src="https://www.digikala.com/statics/img/svg/appStores/myket.svg"></a>
             </div>
-            <div class="col-6 col-lg-2 d-flex align-items-center justify-content-center mt-2">
-                <a href="#" class="mx-2"><img src="https://www.digikala.com/statics/img/svg/appStores/sib-app.svg"></a>
+            <div class="col-6 p-0 col-lg-2 d-flex align-items-center justify-content-center mt-2">
+                <a href="#" class="mx-2"><img class="w-cus"
+                        src="https://www.digikala.com/statics/img/svg/appStores/sib-app.svg"></a>
             </div>
             <div class="col-12 col-lg-1 d-flex align-items-center justify-content-center mt-3 m-lg-0">
                 <a href="#" class="text-white sabad-a d-lg-none">
@@ -865,7 +912,7 @@
             </div>
             <div class="col-4 col-lg-2 p-0">
                 <a href="#" class="d-flex align-items-center justify-content-center border w-100 foot-tall">
-                    <img src="https://www.digikala.com/statics/img/svg/footer/digiclub.svg">
+                    <img class="w-75 " src="https://www.digikala.com/statics/img/svg/footer/digiclub.svg">
                 </a>
             </div>
             <div class="col-4 col-lg-2 p-0">

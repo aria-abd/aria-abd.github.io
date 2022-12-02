@@ -72,7 +72,7 @@ body {
     }
 
     .input1 {
-        width: 600px;
+        width: 100%;
         height: 40px;
         background-color: #f0f0f1;
         border: 0;
@@ -155,6 +155,10 @@ body {
 
     .font-p {
         font-size: 13px;
+    }
+
+    .w-cus {
+        width: 100%;
     }
 
     /* ////////////////////////////////////////////////////////// */
@@ -373,6 +377,10 @@ body {
     .t-align {
         text-align: center;
         font-size: 16px;
+    }
+
+    .w-cus {
+        width: 110%;
     }
 
     /* ////////////////////////////////////////////////////////////////// */
