@@ -1,9 +1,7 @@
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////
 ///////////////////////////////////////First Navigation [ In xl And xxl ]/////////////////////////////////////       
-
 const icon = document.getElementsByClassName("nav-icons");
 let images_icon_1 = ["https://www.asus.com/media/Odin/images/header/ROG_hover.svg", "https://www.asus.com/media/Odin/images/header/ROG_normal.svg", "https://www.asus.com/media/Odin/images/header/ProArt_hover.svg", "https://www.asus.com/media/Odin/images/header/ProArt_normal.svg", "https://www.asus.com/media/Odin/images/header/IoT_hover.svg", "https://www.asus.com/media/Odin/images/header/IoT_normal.svg"];
-
 icon[0].addEventListener("mouseenter", function () {
     icon[0].setAttribute("src", images_icon_1[0]);
     icon[0].classList.add("js-icons");
