@@ -28,3 +28,12 @@ icon[2].addEventListener("mouseout", function () {
 });
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 ////////////////////////////////////////////////Main Navigation///////////////////////////////////////////////////
+let icon_list = document.getElementsByClassName("left-icon");
+let js_add = document.getElementsByClassName("js-add");
+
+icon_list[0].addEventListener("click", function () {
+    js_add[0].classList.toggle("js-list");
+    js_add[1].classList.toggle("js-list");
+    js_add[2].classList.toggle("js-list");
+    console.log("afaf")
+});
