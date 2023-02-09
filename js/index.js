@@ -35,5 +35,9 @@ icon_list[0].addEventListener("click", function () {
     js_add[0].classList.toggle("js-list");
     js_add[1].classList.toggle("js-list");
     js_add[2].classList.toggle("js-list");
-    console.log("afaf")
+    icon_list[0].classList.toggle("bi-x-lg");
+    icon_list[0].classList.toggle("bi-list");
+    console.log("afaf");
 });
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////Slider////////////////////////////////////////////////////////
