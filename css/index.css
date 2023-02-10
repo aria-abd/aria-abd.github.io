@@ -1,3 +1,15 @@
+body {
+    height: 3000px;
+}
+
+/********************************************************************************************************/
+/***********************************************Logo Footer**********************************************/
+.l-left-footer img,
+.l-right-footer img {
+    width: 40px;
+    height: 40px;
+}
+
 @media all and (max-width:767px) {
 
     /********************************************************************************************************/
@@ -5,6 +17,9 @@
     .main-nav {
         height: 48px;
         width: 100%;
+        position: sticky;
+        top: 0px;
+        background-color: white;
     }
 
     .main-nav>a>img {
@@ -79,6 +94,71 @@
     }
 
     /********************************************************************************************************/
+
+    /********************************************************************************************************/
+    /**************************************************Footer************************************************/
+
+    .left-footer span {
+        font-size: 13px;
+        margin-left: 20px;
+        width: 100%;
+    }
+
+    .left-footer {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .left-footer a {
+        margin-left: 20px;
+        color: black;
+        text-decoration: none;
+        font-size: 12px;
+        display: block;
+        width: fit-content;
+
+    }
+
+    .left-footer a::after {
+        content: "";
+        display: block;
+        width: 100%;
+        height: 1px;
+        background-color: black;
+        transform: scaleX(0);
+        transition: all 0s ease 100ms;
+    }
+
+    .left-footer a:hover::after {
+        transform: scaleX(1);
+    }
+
+    .right-footer a {
+        color: black;
+        text-decoration: none;
+        font-size: 13px;
+        display: block;
+        width: fit-content;
+        margin-left: 20px;
+    }
+
+    .right-footer a::after {
+        content: "";
+        display: block;
+        width: 100%;
+        height: 1px;
+        background-color: black;
+        transform: scaleX(0);
+        transition: all 0s ease 100ms;
+    }
+
+    .right-footer a:hover::after {
+        transform: scaleX(1);
+    }
+
+    /********************************************************************************************************/
+    /********************************************************************************************************/
+    /****************************************************END*************************************************/
 }
 
 @media all and (min-width:768px) and (max-width:991px) {
@@ -88,6 +168,9 @@
     .main-nav {
         height: 48px;
         width: 100%;
+        position: sticky;
+        top: 0px;
+        background-color: white;
     }
 
     .main-nav>a>img {
@@ -162,6 +245,72 @@
     }
 
     /********************************************************************************************************/
+
+    /********************************************************************************************************/
+    /**************************************************Footer************************************************/
+
+    .left-footer span {
+        font-size: 13px;
+        margin-left: 20px;
+    }
+
+    .left-footer {
+        display: flex;
+    }
+
+    .left-footer a {
+        margin-left: 20px;
+        color: black;
+        text-decoration: none;
+        font-size: 12px;
+        display: block;
+        width: fit-content;
+    }
+
+    .left-footer a::after {
+        content: "";
+        display: block;
+        width: 100%;
+        height: 1px;
+        background-color: black;
+        transform: scaleX(0);
+        transition: all 0s ease 100ms;
+    }
+
+    .left-footer a:hover::after {
+        transform: scaleX(1);
+    }
+
+    .right-footer a {
+        color: black;
+        text-decoration: none;
+        font-size: 13px;
+        display: block;
+        width: fit-content;
+        margin-left: auto;
+    }
+
+    .custom-margin-footer {
+        margin-right: 20px;
+    }
+
+    .right-footer a::after {
+        content: "";
+        display: block;
+        width: 100%;
+        height: 1px;
+        background-color: black;
+        transform: scaleX(0);
+        transition: all 0s ease 100ms;
+    }
+
+    .right-footer a:hover::after {
+        transform: scaleX(1);
+    }
+
+    /********************************************************************************************************/
+    /********************************************************************************************************/
+    /****************************************************END*************************************************/
 }
 
 @media all and (min-width:992px) and (max-width:1199px) {
@@ -294,6 +443,10 @@
         justify-content: space-between;
         align-items: center;
         height: 48px;
+        position: sticky;
+        top: 0px;
+
+        background-color: white;
     }
 
     .main-nav img {
@@ -387,6 +540,72 @@
     }
 
     /********************************************************************************************************/
+
+    /********************************************************************************************************/
+    /**************************************************Footer************************************************/
+
+    .left-footer span {
+        font-size: 13px;
+        margin-left: 20px;
+    }
+
+    .left-footer {
+        display: flex;
+    }
+
+    .left-footer a {
+        margin-left: 20px;
+        color: black;
+        text-decoration: none;
+        font-size: 12px;
+        display: block;
+        width: fit-content;
+    }
+
+    .left-footer a::after {
+        content: "";
+        display: block;
+        width: 100%;
+        height: 1px;
+        background-color: black;
+        transform: scaleX(0);
+        transition: all 0s ease 100ms;
+    }
+
+    .left-footer a:hover::after {
+        transform: scaleX(1);
+    }
+
+    .right-footer a {
+        color: black;
+        text-decoration: none;
+        font-size: 13px;
+        display: block;
+        width: fit-content;
+        margin-left: auto;
+    }
+
+    .custom-margin-footer {
+        margin-right: 20px;
+    }
+
+    .right-footer a::after {
+        content: "";
+        display: block;
+        width: 100%;
+        height: 1px;
+        background-color: black;
+        transform: scaleX(0);
+        transition: all 0s ease 100ms;
+    }
+
+    .right-footer a:hover::after {
+        transform: scaleX(1);
+    }
+
+    /********************************************************************************************************/
+    /********************************************************************************************************/
+    /****************************************************END*************************************************/
 }
 
 @media all and (min-width:1200px) {
@@ -519,6 +738,9 @@
         justify-content: space-between;
         align-items: center;
         height: 48px;
+        position: sticky;
+        top: 0px;
+        background-color: white;
     }
 
     .main-nav img {
@@ -612,6 +834,72 @@
     }
 
     /********************************************************************************************************/
+
+    /********************************************************************************************************/
+    /**************************************************Footer************************************************/
+
+    .left-footer span {
+        font-size: 13px;
+        margin-left: 20px;
+    }
+
+    .left-footer {
+        display: flex;
+    }
+
+    .left-footer a {
+        margin-left: 20px;
+        color: black;
+        text-decoration: none;
+        font-size: 12px;
+        display: block;
+        width: fit-content;
+    }
+
+    .left-footer a::after {
+        content: "";
+        display: block;
+        width: 100%;
+        height: 1px;
+        background-color: black;
+        transform: scaleX(0);
+        transition: all 0s ease 100ms;
+    }
+
+    .left-footer a:hover::after {
+        transform: scaleX(1);
+    }
+
+    .right-footer a {
+        color: black;
+        text-decoration: none;
+        font-size: 13px;
+        display: block;
+        width: fit-content;
+        margin-left: auto;
+    }
+
+    .custom-margin-footer {
+        margin-right: 20px;
+    }
+
+    .right-footer a::after {
+        content: "";
+        display: block;
+        width: 100%;
+        height: 1px;
+        background-color: black;
+        transform: scaleX(0);
+        transition: all 0s ease 100ms;
+    }
+
+    .right-footer a:hover::after {
+        transform: scaleX(1);
+    }
+
+    /********************************************************************************************************/
+    /********************************************************************************************************/
+    /****************************************************END*************************************************/
 }
 
 /********************************************************************************************************/
