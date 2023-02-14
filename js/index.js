@@ -37,7 +37,6 @@ icon_list[0].addEventListener("click", function () {
     js_add[2].classList.toggle("js-list");
     icon_list[0].classList.toggle("bi-x-lg");
     icon_list[0].classList.toggle("bi-list");
-    console.log("afaf");
 });
 
 
