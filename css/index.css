@@ -43,8 +43,8 @@
 }
 
 body {
-    /* background-color: #f5f7fb; */
-    background-color: gray;
+    background-color: #f5f7fb;
+    /* background-color: gray; */
 }
 
 a {
@@ -155,6 +155,76 @@ li {
 .widget-button a:hover {
     background-color: #17433b;
 }
+
+.card {
+    border-top: 3px solid #24695c;
+    border-radius: 10px;
+    background-color: white;
+    margin-bottom: 10px;
+}
+
+.card-header {
+    font-weight: bold;
+}
+
+.card-body {
+    padding: 10px;
+}
+
+.input1 {
+    display: block;
+    width: 100%;
+    border: 1px solid #ced4da;
+    border-radius: 3px;
+    height: 35px;
+    padding-right: 10px;
+    margin-top: 7px;
+    margin-bottom: 7px;
+    transition: all 200ms ease 0s;
+}
+
+.input1:focus {
+    color: #212529;
+    background-color: white;
+    border-color: #86b7fe;
+    box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+    outline: 0;
+}
+
+.enterbutton {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #24695c;
+    height: 35px;
+    color: white;
+    margin-top: 10px;
+    border: 0 solid #24695c;
+    border-radius: 5px;
+}
+
+.card-body ul {
+    margin: 0;
+    padding: 0 20px 0 0;
+}
+
+.card-body ul li {
+    list-style-type: square;
+    margin: 0 0 5px;
+}
+
+.card-body ul li a {
+    color: black;
+    font-size: 11pt;
+    font-weight: bold;
+}
+
+.card-body ul li a:hover {
+    color: #24695c;
+}
+
+
 
 /*-----------------------------------------------------------------------------------------------------------------*/
 /*----------------------------------------------------COMPANYS-----------------------------------------------------*/
