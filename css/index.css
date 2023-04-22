@@ -1,320 +1,329 @@
-@media all and (max-width:575px) {
-    .logo_res {
-        width: 100%;
-        margin: 0px auto;
-
-    }
-
-    .footer-logo img {
-        width: 160px;
-    }
-
-    .marginRight {
-        margin-left: 0 !important;
-    }
-
-    .paddingCustome {
-        padding-left: 0px;
-        padding-right: 0px;
-    }
-}
-
-@media all and (min-width:576px) and (max-width:991px) {
-    .logo_res {
-        width: 100%;
-        margin: 0px auto;
-    }
-
-    .footer-logo img {
-        width: 100%;
-    }
-
-}
-
-@media all and (min-width:992px) {
-    .logo_res {
-        width: 960px;
-        margin: 0px auto;
-    }
-
-    .footer-logo img {
-        width: 100%;
-    }
-}
-
 body {
-    background-color: #f5f7fb;
-    /* background-color: gray; */
+    background-color: #09294f;
+    height: 2000px;
 }
 
-a {
-    text-decoration: none;
-    color: white;
-}
-
-li {
-    list-style-type: none;
-}
-
-/*-----------------------------------------------------------------------------------------------------------------*/
-/*------------------------------------------------------NAVI-------------------------------------------------------*/
-
-.nav {
-    height: 41px;
-    background-color: #24695c;
-}
-
-.nav ul {
+.icon-container {
     display: flex;
-    text-align: center;
-    justify-content: start;
-    width: 100%;
-    margin-bottom: 0px;
-    padding-right: 0px;
-}
-
-.nav ul li {
-    height: 100%;
-}
-
-.nav ul li a {
-    display: block;
-    height: 100%;
-    padding-left: 10px;
-    padding-right: 10px;
-    margin-right: 10px;
-    line-height: 41px;
-    font-size: 13px;
-}
-
-.nav ul li a::after {
-    content: "";
-    display: block;
-    width: 100%;
-    height: 3px;
-    background-color: white;
-    transform: scaleX(0);
-}
-
-.nav ul li a:hover::after {
-    transform: scaleX(1);
-    transform: translateY(-3px);
-}
-
-/*-----------------------------------------------------------------------------------------------------------------*/
-/*-----------------------------------------------------SLIDER------------------------------------------------------*/
-
-.container-slider {
-    width: 100%;
-    border-radius: 10px;
-    margin: 10px auto;
-    height: 290px;
-    white-space: nowrap;
+    flex-wrap: wrap;
+    margin-left: auto;
+    margin-right: auto;
     position: relative;
-    overflow: hidden;
+    width: 90%;
+    height: 100vh;
+
+
+    margin-top: 40px;
 }
 
-.container-slider img {
-    width: 100%;
-    height: 290px;
-    object-fit: cover;
-    border-radius: 10px;
-    transition: all 500ms ease 0s;
-}
-
-.slider-icon {
-    position: absolute;
-    z-index: 2;
-    background-color: rgba(255, 255, 255, 0.3);
-    left: 15px;
-    top: 50%;
-    margin-top: -15px;
-    width: 32px;
-    height: 32px;
-    font-size: 22px;
-    font-weight: bold;
-    text-align: center;
-    line-height: 32px;
-    border-radius: 50%;
-    cursor: pointer;
-}
-
-.slider-icon:first-of-type {
-    right: 15px;
-}
-
-.slider-icon:hover {
-    background-color: rgba(255, 255, 255, 0.5);
-}
-
-/*-----------------------------------------------------------------------------------------------------------------*/
-/*------------------------------------------------------MAIN-------------------------------------------------------*/
-
-.main-h2 {
-    margin: 30px auto 10px auto;
-    background-color: #17433b;
-    border-radius: 10px;
-    color: white;
-    font-size: 16pt;
-    padding: 15px 10px;
-}
-
-.main-h2 div {
-    text-align: center;
-    color: white;
-    font-size: 16pt;
-    font-weight: 500;
-    line-height: 1.2;
-}
-
-.main-pz {
-    text-align: justify;
-    font-size: 11pt;
-    margin-bottom: 1rem;
-}
-
-.main-h6 {
-    border-radius: 10px;
-    margin: 30px auto 10px auto;
-    color: white;
-    padding: 15px 10px;
-    font-size: 11pt;
-    background-color: #2c323f;
-}
-
-.widget-button a {
-    display: block;
-    background-color: #24695c;
-    width: 100%;
-    height: 52px;
-    text-align: center;
-    line-height: 52px;
-    border-radius: 10px;
-    margin-bottom: 10px;
-    margin-top: 10px;
-}
-
-.widget-button a:hover {
-    background-color: #17433b;
-}
-
-.card {
-    border-top: 3px solid #24695c;
-    border-radius: 10px;
-    background-color: white;
-    margin-bottom: 10px;
-}
-
-.card-header {
-    font-weight: bold;
-}
-
-.card-body {
-    padding: 10px;
-}
-
-.input1 {
-    display: block;
-    width: 100%;
-    border: 1px solid #ced4da;
-    border-radius: 3px;
-    height: 35px;
-    padding-right: 10px;
-    margin-top: 7px;
-    margin-bottom: 7px;
-    transition: all 200ms ease 0s;
-}
-
-.input1:focus {
-    color: #212529;
-    background-color: white;
-    border-color: #86b7fe;
-    box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
-    outline: 0;
-}
-
-.enterbutton {
-    width: 100%;
+.icon-container a {
     display: flex;
     align-items: center;
+    flex-wrap: wrap;
     justify-content: center;
-    background-color: #24695c;
-    height: 35px;
-    color: white;
-    margin-top: 10px;
-    border: 0 solid #24695c;
-    border-radius: 5px;
+    width: fit-content;
+    position: absolute;
+    border: 1px solid #eedead;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    color: #eedead;
+    text-decoration: none;
+    font-size: 14px;
+    transition: all 300ms ease 0s;
 }
 
-.card-body ul {
-    margin: 0;
-    padding: 0 20px 0 0;
+.icon-container a:hover {
+    transform: scale(1.2);
 }
 
-.card-body ul li {
-    list-style-type: square;
-    margin: 0 0 5px;
+.icon-container a p {
+    margin-bottom: 0;
+    transform: translateY(-25px);
+    text-align: center;
 }
 
-.card-body ul li a {
-    color: black;
-    font-size: 11pt;
-    font-weight: bold;
-}
-
-.card-body ul li a:hover {
-    color: #24695c;
-}
-
-/*-----------------------------------------------------------------------------------------------------------------*/
-/*----------------------------------------------------COMPANYS-----------------------------------------------------*/
-/*******************************************************NONE********************************************************/
-/*-----------------------------------------------------------------------------------------------------------------*/
-/*-----------------------------------------------------FOOTER------------------------------------------------------*/
-
-.border-color-custome {
-    border-color: rgb(216, 217, 218) !important;
-    margin-top: 10px;
-}
-
-.footer-logo img {
+.icon-container a img {
+    width: 90%;
     display: block;
-    margin: 0px auto;
-    margin-top: 27px;
-    margin-bottom: 20px;
 }
 
-.footer-soton {
-    font-size: 10pt;
-    padding: 10px;
+
+/* .tabe-left {
+    background-color: aqua;
+    width: 600px;
+    height: 800px;
+    position: absolute;
+    z-index: 2;
+} */
+
+
+
+
+
+
+
+
+
+
+.poz-1 {
+    overflow: hidden;
+    left: 50%;
+    margin-left: -50px;
+    top: 50%;
+    margin-top: -50px;
 }
 
-.footer-soton p {
-    margin-bottom: 4px;
-    color: #24695c;
-    font-weight: bold;
-}
-
-.footer-soton ul {
-    padding-right: 0px;
-}
-
-.footer-soton ul li {
-    margin-bottom: 2px;
+.poz-2 {
+    top: 50%;
+    margin-top: -50px;
+    left: 0%;
 
 }
 
-.footer-soton ul li a {
-    color: black;
-    padding: 1px;
-    border-radius: 4px;
+.poz-4 {
+    top: 50%;
+    margin-top: 60px;
+    left: 4%;
 }
 
-.footer-soton ul li a:hover {
-    background-color: #24695c;
-    color: white;
+.poz-5 {
+    top: 50%;
+    margin-top: 130px;
+    left: 15%;
 }
 
-/*-----------------------------------------------------------------------------------------------------------------*/
-/*-----------------------------------------------------------------------------------------------------------------*/
-/*-------------------------------------------------------END-------------------------------------------------------*/
+.poz-6 {
+    top: 50%;
+    margin-top: 130px;
+    left: 28%;
+}
+
+.poz-7 {
+    top: 50%;
+    margin-top: 60px;
+    left: 38%;
+}
+
+
+.poz-8 {
+    bottom: 50%;
+    margin-bottom: 60px;
+    left: 4%;
+}
+
+.poz-9 {
+    bottom: 50%;
+    margin-bottom: 130px;
+    left: 15%;
+}
+
+.poz-10 {
+    bottom: 50%;
+    margin-bottom: 130px;
+    left: 28%;
+}
+
+.poz-11 {
+    bottom: 50%;
+    margin-bottom: 60px;
+    left: 38%;
+}
+
+
+
+.poz-3 {
+    top: 50%;
+    margin-top: -50px;
+    right: 0%;
+}
+
+.poz-12 {
+    bottom: 50%;
+    margin-bottom: 60px;
+    right: 4%;
+}
+
+.poz-13 {
+    bottom: 50%;
+    margin-bottom: 130px;
+    right: 15%;
+}
+
+.poz-14 {
+    bottom: 50%;
+    margin-bottom: 130px;
+    right: 28%;
+}
+
+.poz-15 {
+    bottom: 50%;
+    margin-bottom: 60px;
+    right: 38%;
+}
+
+.poz-16 {
+    top: 50%;
+    margin-top: 60px;
+    right: 4%;
+}
+
+.poz-17 {
+    top: 50%;
+    margin-top: 130px;
+    right: 15%;
+}
+
+.poz-18 {
+    top: 50%;
+    margin-top: 130px;
+    right: 28%;
+}
+
+.poz-19 {
+    top: 50%;
+    margin-top: 60px;
+    right: 38%;
+}
+
+
+
+
+
+
+
+
+
+
+/*  
+
+.poz-8 {
+    top: 50%;
+    margin-top: 50px;
+    right: 19%;
+}
+
+.poz-9 {
+    bottom: 50%;
+    margin-bottom: 50px;
+    right: 19%;
+}
+
+.poz-10 {
+    top: 50%;
+    margin-top: 50px;
+    left: 19%;
+}
+
+.poz-11 {
+    bottom: 50%;
+    margin-bottom: 50px;
+    left: 19%;
+}
+
+
+
+
+
+
+
+
+.poz-12 {
+    bottom: 50%;
+    margin-bottom: 130px;
+    left: 25%;
+}
+
+.poz-16 {
+    bottom: 50%;
+    margin-bottom: 130px;
+    right: 25%;
+}
+
+.poz-14 {
+    top: 50%;
+    margin-top: 130px;
+    left: 25%;
+}
+
+.poz-15 {
+    top: 50%;
+    margin-top: 130px;
+    right: 25%;
+}
+
+
+
+
+
+
+
+
+.poz-13 {
+    bottom: 50%;
+    margin-bottom: 170px;
+    left: 33.5%;
+}
+
+.poz-17 {
+    bottom: 50%;
+    margin-bottom: 170px;
+    right: 33.5%;
+}
+
+.poz-18 {
+    top: 50%;
+    margin-top: 170px;
+    right: 33.5%;
+}
+
+.poz-19 {
+    top: 50%;
+    margin-top: 170px;
+    left: 33.5%;
+}
+
+
+
+
+
+
+
+
+
+.poz-4 {
+    overflow: hidden;
+    left: 50%;
+    top: 15%;
+    margin-top: -70px;
+    margin-left: 5px;
+
+}
+
+.poz-5 {
+    overflow: hidden;
+    right: 50%;
+    top: 15%;
+    margin-top: -70px;
+    margin-right: 5px;
+}
+
+.poz-6 {
+    overflow: hidden;
+    left: 50%;
+    bottom: 15%;
+    margin-bottom: -70px;
+    margin-left: 5px;
+
+}
+
+.poz-7 {
+    overflow: hidden;
+    right: 50%;
+    bottom: 15%;
+    margin-bottom: -70px;
+    margin-right: 5px;
+}
+
+
+*/
