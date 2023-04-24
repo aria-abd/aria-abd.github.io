@@ -3,327 +3,366 @@ body {
     height: 2000px;
 }
 
-.icon-container {
-    display: flex;
-    flex-wrap: wrap;
-    margin-left: auto;
-    margin-right: auto;
-    position: relative;
-    width: 90%;
-    height: 100vh;
-
-
-    margin-top: 40px;
-}
-
-.icon-container a {
-    display: flex;
-    align-items: center;
-    flex-wrap: wrap;
-    justify-content: center;
-    width: fit-content;
-    position: absolute;
-    border: 1px solid #eedead;
-    border-radius: 50%;
-    width: 100px;
-    height: 100px;
-    color: #eedead;
-    text-decoration: none;
-    font-size: 14px;
-    transition: all 300ms ease 0s;
-}
-
-.icon-container a:hover {
-    transform: scale(1.2);
-}
-
-.icon-container a p {
-    margin-bottom: 0;
-    transform: translateY(-25px);
-    text-align: center;
-}
-
-.icon-container a img {
-    width: 90%;
-    display: block;
-}
-
-
-/* .tabe-left {
-    background-color: aqua;
-    width: 600px;
-    height: 800px;
-    position: absolute;
-    z-index: 2;
-} */
-
-
-
-
-
-
-
-
-
-
-.poz-1 {
-    overflow: hidden;
-    left: 50%;
-    margin-left: -50px;
-    top: 50%;
-    margin-top: -50px;
-}
-
-.poz-2 {
-    top: 50%;
-    margin-top: -50px;
-    left: 0%;
-
-}
-
-.poz-4 {
-    top: 50%;
-    margin-top: 60px;
-    left: 4%;
-}
-
-.poz-5 {
-    top: 50%;
-    margin-top: 130px;
-    left: 15%;
-}
-
-.poz-6 {
-    top: 50%;
-    margin-top: 130px;
-    left: 28%;
-}
-
-.poz-7 {
-    top: 50%;
-    margin-top: 60px;
-    left: 38%;
-}
-
-
-.poz-8 {
-    bottom: 50%;
-    margin-bottom: 60px;
-    left: 4%;
-}
-
-.poz-9 {
-    bottom: 50%;
-    margin-bottom: 130px;
-    left: 15%;
-}
-
-.poz-10 {
-    bottom: 50%;
-    margin-bottom: 130px;
-    left: 28%;
-}
-
-.poz-11 {
-    bottom: 50%;
-    margin-bottom: 60px;
-    left: 38%;
-}
-
-
-
-.poz-3 {
-    top: 50%;
-    margin-top: -50px;
-    right: 0%;
-}
-
-.poz-12 {
-    bottom: 50%;
-    margin-bottom: 60px;
-    right: 4%;
-}
-
-.poz-13 {
-    bottom: 50%;
-    margin-bottom: 130px;
-    right: 15%;
-}
-
-.poz-14 {
-    bottom: 50%;
-    margin-bottom: 130px;
-    right: 28%;
-}
-
-.poz-15 {
-    bottom: 50%;
-    margin-bottom: 60px;
-    right: 38%;
-}
-
-.poz-16 {
-    top: 50%;
-    margin-top: 60px;
-    right: 4%;
-}
-
-.poz-17 {
-    top: 50%;
-    margin-top: 130px;
-    right: 15%;
-}
-
-.poz-18 {
-    top: 50%;
-    margin-top: 130px;
-    right: 28%;
-}
-
-.poz-19 {
-    top: 50%;
-    margin-top: 60px;
-    right: 38%;
-}
-
-
-
-
-
-
-
-
-
-
-/*  
-
-.poz-8 {
-    top: 50%;
-    margin-top: 50px;
-    right: 19%;
-}
-
-.poz-9 {
-    bottom: 50%;
-    margin-bottom: 50px;
-    right: 19%;
-}
-
-.poz-10 {
-    top: 50%;
-    margin-top: 50px;
-    left: 19%;
-}
-
-.poz-11 {
-    bottom: 50%;
-    margin-bottom: 50px;
-    left: 19%;
-}
-
-
-
-
-
-
-
-
-.poz-12 {
-    bottom: 50%;
-    margin-bottom: 130px;
-    left: 25%;
-}
-
-.poz-16 {
-    bottom: 50%;
-    margin-bottom: 130px;
-    right: 25%;
-}
-
-.poz-14 {
-    top: 50%;
-    margin-top: 130px;
-    left: 25%;
-}
-
-.poz-15 {
-    top: 50%;
-    margin-top: 130px;
-    right: 25%;
-}
-
-
-
-
-
-
-
-
-.poz-13 {
-    bottom: 50%;
-    margin-bottom: 170px;
-    left: 33.5%;
-}
-
-.poz-17 {
-    bottom: 50%;
-    margin-bottom: 170px;
-    right: 33.5%;
-}
-
-.poz-18 {
-    top: 50%;
-    margin-top: 170px;
-    right: 33.5%;
-}
-
-.poz-19 {
-    top: 50%;
-    margin-top: 170px;
-    left: 33.5%;
-}
-
-
-
-
-
-
-
-
-
-.poz-4 {
-    overflow: hidden;
-    left: 50%;
-    top: 15%;
-    margin-top: -70px;
-    margin-left: 5px;
+@media all and (max-width:575px) {
+
+    /*-------------------------------------------------------------------------------------------------------------*/
+    /*-----------------------------------------------------NAVI----------------------------------------------------*/
+
+    .navi {
+        margin-left: auto;
+        margin-right: auto;
+        width: 95%;
+        height: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .navi button {
+        text-decoration: none;
+        color: #eedead;
+        background-color: #09294f;
+        border: 0;
+    }
+
+    /*-------------------------------------------------------------------------------------------------------------*/
+    /*-----------------------------------------------------LOGO----------------------------------------------------*/
+
+    .logo-small-size {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .logo-small-size a {
+        width: 128px;
+        height: 128px;
+        border: 1px solid #eedead;
+        border-radius: 50%;
+        overflow: hidden;
+    }
+
+    .logo-small-size a img {
+        width: 100%;
+    }
+
+    /*-------------------------------------------------------------------------------------------------------------*/
+    /*----------------------------------------------------ICONS----------------------------------------------------*/
+
+    .icon-container {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+
+    .icon-container a {
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 30%;
+        border: 1px solid #eedead;
+        border-radius: 50%;
+        color: #eedead;
+        text-decoration: none;
+        font-size: calc(1vw + 10px);
+        transition: all 300ms ease 0s;
+        margin-top: 20px;
+    }
+
+    .icon-container a img {
+        width: 100%;
+    }
+
+    .icon-container a:hover {
+        transform: scale(1.1);
+    }
+
+    .icon-container a p {
+        margin-bottom: 0;
+        transform: translateY(-23px);
+        text-align: center;
+    }
 
 }
 
-.poz-5 {
-    overflow: hidden;
-    right: 50%;
-    top: 15%;
-    margin-top: -70px;
-    margin-right: 5px;
+@media all and (min-width:576px) and (max-width:991px) {
+
+    /*-------------------------------------------------------------------------------------------------------------*/
+    /*-----------------------------------------------------NAVI----------------------------------------------------*/
+
+    .navi {
+        margin-left: auto;
+        margin-right: auto;
+        width: 95%;
+        height: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .navi button {
+        text-decoration: none;
+        color: #eedead;
+        background-color: #09294f;
+        border: 0;
+    }
+
+    /*-------------------------------------------------------------------------------------------------------------*/
+    /*-----------------------------------------------------LOGO----------------------------------------------------*/
+
+    .logo-small-size {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .logo-small-size a {
+        width: 130px;
+        height: 130px;
+        border: 1px solid #eedead;
+        border-radius: 50%;
+        overflow: hidden;
+    }
+
+    .logo-small-size a img {
+        width: 100%;
+    }
+
+    /*-------------------------------------------------------------------------------------------------------------*/
+    /*----------------------------------------------------ICONS----------------------------------------------------*/
+
+    .icon-container {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .icon-container a {
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 26%;
+        border: 1px solid #eedead;
+        border-radius: 50%;
+        color: #eedead;
+        text-decoration: none;
+        font-size: 16px;
+        transition: all 300ms ease 0s;
+        margin-top: 20px;
+    }
+
+    .icon-container a img {
+        width: 100%;
+    }
+
+    .icon-container a:hover {
+        transform: scale(1.1);
+    }
+
+    .icon-container a p {
+        margin-bottom: 0;
+        transform: translateY(-25px);
+        text-align: center;
+    }
+
 }
 
-.poz-6 {
-    overflow: hidden;
-    left: 50%;
-    bottom: 15%;
-    margin-bottom: -70px;
-    margin-left: 5px;
+@media all and (min-width:992px) {
 
+    /*-------------------------------------------------------------------------------------------------------------*/
+    /*-----------------------------------------------------NAVI----------------------------------------------------*/
+
+    .navi {
+        margin-left: auto;
+        margin-right: auto;
+        width: 95%;
+        height: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .navi button {
+        text-decoration: none;
+        color: #eedead;
+        background-color: #09294f;
+        border: 0;
+    }
+
+
+    /*-------------------------------------------------------------------------------------------------------------*/
+    /*----------------------------------------------------ICONS----------------------------------------------------*/
+
+    .icon-container {
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: auto;
+        margin-right: auto;
+        position: relative;
+        width: 90%;
+        height: 100vh;
+    }
+
+    .icon-container a {
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        justify-content: center;
+        width: fit-content;
+        position: absolute;
+        border: 1px solid #eedead;
+        border-radius: 50%;
+        width: 100px;
+        height: 100px;
+        color: #eedead;
+        text-decoration: none;
+        font-size: 14px;
+        transition: all 300ms ease 0s;
+    }
+
+    .icon-container a:hover {
+        transform: scale(1.2);
+    }
+
+    .icon-container a p {
+        margin-bottom: 0;
+        transform: translateY(-25px);
+        text-align: center;
+    }
+
+    .icon-container a img {
+        width: 90%;
+        display: block;
+    }
+
+    /*-------------------------------------------------------------------------------------------------------------*/
+    /*----------------------------------------------------POSITIONS------------------------------------------------*/
+
+    .poz-1 {
+        overflow: hidden;
+        left: 50%;
+        margin-left: -50px;
+        top: 50%;
+        margin-top: -50px;
+    }
+
+    .poz-2 {
+        top: 50%;
+        margin-top: -50px;
+        left: 0%;
+
+    }
+
+    .poz-4 {
+        top: 50%;
+        margin-top: 60px;
+        left: 4%;
+    }
+
+    .poz-5 {
+        top: 50%;
+        margin-top: 130px;
+        left: 15%;
+    }
+
+    .poz-6 {
+        top: 50%;
+        margin-top: 130px;
+        left: 28%;
+    }
+
+    .poz-7 {
+        top: 50%;
+        margin-top: 60px;
+        left: 38%;
+    }
+
+    .poz-8 {
+        bottom: 50%;
+        margin-bottom: 60px;
+        left: 4%;
+    }
+
+    .poz-9 {
+        bottom: 50%;
+        margin-bottom: 130px;
+        left: 15%;
+    }
+
+    .poz-10 {
+        bottom: 50%;
+        margin-bottom: 130px;
+        left: 28%;
+    }
+
+    .poz-11 {
+        bottom: 50%;
+        margin-bottom: 60px;
+        left: 38%;
+    }
+
+    .poz-3 {
+        top: 50%;
+        margin-top: -50px;
+        right: 0%;
+    }
+
+    .poz-12 {
+        bottom: 50%;
+        margin-bottom: 60px;
+        right: 4%;
+    }
+
+    .poz-13 {
+        bottom: 50%;
+        margin-bottom: 130px;
+        right: 15%;
+    }
+
+    .poz-14 {
+        bottom: 50%;
+        margin-bottom: 130px;
+        right: 28%;
+    }
+
+    .poz-15 {
+        bottom: 50%;
+        margin-bottom: 60px;
+        right: 38%;
+    }
+
+    .poz-16 {
+        top: 50%;
+        margin-top: 60px;
+        right: 4%;
+    }
+
+    .poz-17 {
+        top: 50%;
+        margin-top: 130px;
+        right: 15%;
+    }
+
+    .poz-18 {
+        top: 50%;
+        margin-top: 130px;
+        right: 28%;
+    }
+
+    .poz-19 {
+        top: 50%;
+        margin-top: 60px;
+        right: 38%;
+    }
+
+    /*-------------------------------------------------------------------------------------------------------------*/
+    /*-------------------------------------------------------------------------------------------------------------*/
 }
-
-.poz-7 {
-    overflow: hidden;
-    right: 50%;
-    bottom: 15%;
-    margin-bottom: -70px;
-    margin-right: 5px;
-}
-
-
-*/
