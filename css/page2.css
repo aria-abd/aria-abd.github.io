@@ -1,0 +1,165 @@
+body {
+    background-color: #09294f;
+    height: 2000px;
+}
+
+@media all and (max-width:575px) {
+
+    /*-------------------------------------------------------------------------------------------------------------*/
+    /*---------------------------------------------------MAHSOOLAT-------------------------------------------------*/
+
+    .mahsoolat {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .mahsoolat a {
+        display: block;
+        width: 19%;
+        text-decoration: none;
+        color: #eedead;
+        text-align: center;
+        transition: all 400ms ease 0s;
+        font-size: calc(1vw + 8px);
+    }
+
+    .mahsoolat a:hover {
+        transform: scale(1.1);
+    }
+
+    .mahsoolat a img {
+        width: 100%;
+        border: 1px solid #eedead;
+        border-radius: 50%;
+    }
+}
+
+@media all and (min-width:576px) and (max-width:991px) {
+
+    /*-------------------------------------------------------------------------------------------------------------*/
+    /*---------------------------------------------------MAHSOOLAT-------------------------------------------------*/
+
+    .mahsoolat {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .mahsoolat a {
+        display: block;
+        width: 129px;
+        text-decoration: none;
+        color: #eedead;
+        text-align: center;
+        transition: all 400ms ease 0s;
+        margin-left: 3px;
+        margin-right: 3px;
+    }
+
+    .mahsoolat a:hover {
+        transform: scale(1.1);
+    }
+
+    .mahsoolat a img {
+        width: 100%;
+        border: 1px solid #eedead;
+        border-radius: 50%;
+    }
+}
+
+@media all and (min-width:992px) {
+
+    /*-------------------------------------------------------------------------------------------------------------*/
+    /*---------------------------------------------------MAHSOOLAT-------------------------------------------------*/
+
+    .mahsoolat {
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .mahsoolat a {
+        display: block;
+        width: 129px;
+        text-decoration: none;
+        color: #eedead;
+        text-align: center;
+        transition: all 400ms ease 0s;
+    }
+
+    .mahsoolat a:hover {
+        transform: scale(1.1);
+    }
+
+    .mahsoolat a img {
+        width: 100%;
+        border: 1px solid #eedead;
+        border-radius: 50%;
+    }
+}
+
+/*-------------------------------------------------------------------------------------------------------------*/
+/*-----------------------------------------------------DASTE---------------------------------------------------*/
+
+.daste {
+    border: 2px solid #eedead;
+    border-radius: 20px;
+    margin-top: 40px;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.daste2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.daste2 p {
+    font-size: calc(0.7vw + 7px);
+}
+
+.daste2 a {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: #eedead;
+    transition: all 300ms ease 0s;
+}
+
+.daste2 a:hover {
+    transform: scale(1.1);
+
+}
+
+.daste2 a img {
+    width: calc(2vw + 35px);
+}
+
+/* ///////////////////////////////////////////////////////////////////////////////*/
+.left-daste-part div {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.left-daste-part div img {
+    width: 300px;
+    border-radius: 10px;
+}
+
+.left-daste-part div p {
+    width: 366px;
+}
