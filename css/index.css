@@ -11,18 +11,35 @@ body {
     .navi {
         margin-left: auto;
         margin-right: auto;
-        width: 95%;
+        width: 98%;
         height: 50px;
         display: flex;
         align-items: center;
         justify-content: space-between;
+        margin-top: 10px;
+
     }
 
     .navi button {
         text-decoration: none;
         color: #eedead;
         background-color: #09294f;
-        border: 0;
+        border: 1px solid #eedead;
+        font-size: calc(1vw + 5px);
+        padding: 8px;
+        border-radius: 8px;
+        transition: all 300ms ease 0s;
+    }
+
+    .navi button:hover {
+        background-color: #eedead;
+        color: #09294f;
+    }
+
+    .navi h2 {
+        color: #eedead;
+        font-weight: 300;
+        font-size: calc(1vw + 10px);
     }
 
     /*-------------------------------------------------------------------------------------------------------------*/
@@ -101,14 +118,31 @@ body {
         display: flex;
         align-items: center;
         justify-content: space-between;
+        margin-top: 10px;
+
     }
 
     .navi button {
         text-decoration: none;
         color: #eedead;
         background-color: #09294f;
-        border: 0;
+        border: 1px solid #eedead;
+        padding: 10px;
+        border-radius: 10px;
+        transition: all 300ms ease 0s;
     }
+
+    .navi button:hover {
+        background-color: #eedead;
+        color: #09294f;
+    }
+
+    .navi h2 {
+        color: #eedead;
+        font-weight: 300;
+        font-size: calc(1vw + 15px);
+    }
+
 
     /*-------------------------------------------------------------------------------------------------------------*/
     /*-----------------------------------------------------LOGO----------------------------------------------------*/
@@ -188,13 +222,27 @@ body {
         display: flex;
         align-items: center;
         justify-content: space-between;
+        margin-top: 10px;
     }
 
     .navi button {
         text-decoration: none;
         color: #eedead;
         background-color: #09294f;
-        border: 0;
+        border: 1px solid #eedead;
+        padding: 10px;
+        border-radius: 10px;
+        transition: all 300ms ease 0s;
+    }
+
+    .navi button:hover {
+        background-color: #eedead;
+        color: #09294f;
+    }
+
+    .navi h2 {
+        color: #eedead;
+        font-weight: 300;
     }
 
 

@@ -153,6 +153,31 @@ body {
         width: 100%;
     }
 
+    /*-------------------------------------------------------------------------------------------------------------*/
+    /*-----------------------------------------------------HEADER--------------------------------------------------*/
+
+    .header {
+        width: 100%;
+        height: 95vh;
+        position: relative;
+    }
+
+    .header h1 {
+        position: absolute;
+        right: 10%;
+        top: 10%;
+        font-size: 35px;
+        color: #eedead;
+    }
+
+    .header h3 {
+        position: absolute;
+        right: 8%;
+        top: 20%;
+        font-size: 20px;
+        color: #eedead;
+    }
+
 }
 
 @media all and (min-width:576px) and (max-width:991px) {
@@ -306,6 +331,31 @@ body {
         width: 100%;
     }
 
+    /*-------------------------------------------------------------------------------------------------------------*/
+    /*-----------------------------------------------------HEADER--------------------------------------------------*/
+
+    .header {
+        width: 100%;
+        height: 95vh;
+        position: relative;
+    }
+
+    .header h1 {
+        position: absolute;
+        right: 10%;
+        top: 10%;
+        font-size: 60px;
+        color: #eedead;
+    }
+
+    .header h3 {
+        position: absolute;
+        right: 8%;
+        top: 28%;
+        font-size: 25px;
+        color: #eedead;
+    }
+
 }
 
 @media all and (min-width:992px) {
@@ -451,6 +501,31 @@ body {
 
     .back-to-home img {
         width: 100%;
+    }
+
+    /*-------------------------------------------------------------------------------------------------------------*/
+    /*-----------------------------------------------------HEADER--------------------------------------------------*/
+
+    .header {
+        width: 100%;
+        height: 95vh;
+        position: relative;
+    }
+
+    .header h1 {
+        position: absolute;
+        right: 10%;
+        top: 10%;
+        font-size: 70px;
+        color: #eedead;
+    }
+
+    .header h3 {
+        position: absolute;
+        right: 8%;
+        top: 35%;
+        font-size: 30px;
+        color: #eedead;
     }
 
 
