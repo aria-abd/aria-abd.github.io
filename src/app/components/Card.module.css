@@ -1,0 +1,30 @@
+.lightCard {
+  background-color: #fff;
+  color: blue;
+  width: 400px;
+  margin: 15px auto;
+  padding: 10px;
+  border-radius: 10px;
+}
+.darkCard {
+  background-color: #444;
+  color: red;
+  width: 400px;
+  margin: 15px auto;
+  padding: 10px;
+  border-radius: 10px;
+}
+.card a {
+  color: black;
+  border-radius: 14px;
+  padding: 5px;
+  display: inline-block;
+}
+
+.bottonBackgroundGreen {
+  background-color: green;
+}
+
+.bottonBackgroundYellow {
+  background-color: yellow;
+}
