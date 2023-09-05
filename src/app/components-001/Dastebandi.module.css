@@ -1,0 +1,14 @@
+.h3 {
+  font-size: 25px;
+  margin-right: 40px;
+  margin-top: 20px;
+  font-weight: 400;
+}
+
+.mainDiv {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: nowrap;
+}
