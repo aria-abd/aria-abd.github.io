@@ -1,0 +1,21 @@
+.parent {
+  background-color: aqua;
+  width: 30%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+}
+.parent img {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+.parent h3 {
+  margin-left: auto;
+  margin-right: auto;
+  width: fit-content;
+  padding: 4px;
+}
+.red {
+  background-color: rgb(218, 110, 110);
+}

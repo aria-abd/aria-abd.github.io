@@ -1,0 +1,50 @@
+.positionBox1 {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background-color: #aaa;
+}
+
+.h1Padding {
+  width: 400px;
+  background-color: white;
+  height: 230px;
+  position: absolute;
+  right: 50%;
+  margin-right: -200px;
+  bottom: 50%;
+  margin-bottom: -80px;
+  border: 1px solid black;
+  border-radius: 18px;
+}
+.h1Padding h1 {
+  margin-left: auto;
+  margin-right: auto;
+  width: fit-content;
+  margin-top: 15px;
+}
+.ButtonFlex {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.ButtonFlex button {
+  width: 40%;
+  font-size: 20px;
+  height: 40px;
+  border-radius: 8px;
+  border: 1px solid black;
+  margin-top: 15px;
+  transition: all 300ms ease 0s;
+}
+.ButtonFlex button:hover {
+  background-color: rgb(153, 22, 22);
+  color: white;
+}
+
+.bGred {
+  background-color: rgb(245, 73, 73);
+}
+.bGwhite {
+  background-color: white;
+}
