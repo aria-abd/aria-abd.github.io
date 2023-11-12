@@ -34,7 +34,7 @@ document.querySelector('.check').addEventListener('click', function () {
   else if (guess === secretNumber) {
     debugger;
     // document.querySelector('.message').textContent = 'correct number';
-    displayMessage('correct number');
+    displayMessage('Afarin jojo ,kheyli doset daram');
     document.querySelector('body').classList.add('js-background');
     document.querySelector('.number').classList.add('js-number');
     document.querySelector('.number').textContent = secretNumber;
