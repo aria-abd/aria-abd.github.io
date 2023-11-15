@@ -5,28 +5,48 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <link rel="stylesheet" href="style.css" />
-    <title>Guess My Number!</title>
+    <title>Modal window</title>
   </head>
   <body>
-    <header>
-      <h1>Guess My Number Asal!</h1>
-      <p class="between">(Between 1 and 20)</p>
-      <button class="btn again">Again!</button>
-      <div class="number">?</div>
-    </header>
-    <main>
-      <section class="left">
-        <input type="number" class="guess" />
-        <button class="btn check">Check!</button>
-      </section>
-      <section class="right">
-        <p class="message">Start guessing...</p>
-        <p class="label-score">💯 Score: <span class="score">20</span></p>
-        <p class="label-highscore">
-          🥇 Highscore: <span class="highscore"></span>
-        </p>
-      </section>
-    </main>
+    <button class="show-modal">Show modal 1</button>
+    <button class="show-modal">Show modal 2</button>
+    <button class="show-modal">Show modal 3</button>
+
+    <div class="modal hidden">
+      <button class="close-modal">&times;</button>
+      <h1>😍 آخ که چقدر دوست دارم جوجو</h1>
+      <p>
+        بهترین جوجوی دنیا
+        <br />
+        بهترین جیگر دنیا
+        <br />
+        خوشگل ترینه دنیا
+        <br />
+        عزیز ترینه بابا
+        <br />
+        سنجاب ماده ی بابا
+        <br />
+        عسلم انقدر دوست دازم که اون سرش ناپیداست میمیرم واست هرچند فاصلمون دوره
+        ولی حس میکنم قلبم چسبیده به قلبت انگار بغلت کردم هرکاری از دستم بر بیاد
+        میکنم که این فاصله رو حس نکنی یا کمتر حس کنی اصلا نگران هیچی نباش چون
+        میدونم از پس همچی برمیایی شیر ماده ی بابا
+        <br />
+        ps :
+        <br />
+        یه ترکه هر روز خر همسایه و میکرد همسایه شاکی میشه میگه چرا خر خودتون رو
+        نمیکنی مادرجنده
+        <br />
+        ترکه میگه :بابام انقدر خر خودمون رو کرده من به چشم مادری بهش نگاه میکنم
+        <br />
+        ps :
+        <br />
+        دوست دارم
+        <br />
+        شوهرت آرین
+      </p>
+    </div>
+    <div class="overlay hidden"></div>
+
     <script src="script.js"></script>
   </body>
 </html>
